@@ -1,1 +1,3 @@
 # jun
+
+yarn && yarn start
