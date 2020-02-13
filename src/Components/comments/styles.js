@@ -11,9 +11,11 @@ const Comments = styled.div`
   }
   
   .like {
+    max-width: 100px;
+    right: 400px;
     position: absolute;
     top: 0%;
-    right: 0%;
+    left: 800px;
   }
 `;
 

@@ -55,7 +55,6 @@ export class Comments extends Component {
   }
 
   render() {
-
     return (
       <S.Comments>
         {this.state.comments.length > 10 ? <img className="like" src={img} /> : null}
@@ -63,7 +62,7 @@ export class Comments extends Component {
           <span style={{ fontStyle: 'italic' }}>{dayjs(comment.date).format("DD.MM.YYYY в HH:mm")}: </span>
           <strong>{comment.name}, </strong>
             <span>{comment.comment}</span>
-          {/*<S.Button onClick={this.removeComment.bind(null, comment.id)}>Удалить комментарий</S.Button>*/}
+          {/*<button onClick={this.removeComment.bind(null, comment.id)}>Удалить комментарий</button>*/}
         </div>)}
         <S.AddComment>
           <label>Имя: <input
