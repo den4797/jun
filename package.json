@@ -7,7 +7,7 @@
     "date-fns": "^2.9.0",
     "dateformat": "^3.0.3",
     "dayjs": "^1.8.20",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-sass": "^4.13.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
